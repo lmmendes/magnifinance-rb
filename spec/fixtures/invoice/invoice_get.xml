@@ -1,0 +1,61 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <soap:Body>
+    <Invoice_ListResponse xmlns="http://www.outsystems.com">
+      <ErrorMessage/>
+      <InvoiceList>
+        <DocumentDetails>
+          <Number/>
+          <Date>2019-07-08T00:00:00.0000000+01:00</Date>
+          <DueDate>1900-01-01T00:00:00.0000000+00:00</DueDate>
+          <LegalName>Consumidor Final</LegalName>
+          <TaxNumber>999999990</TaxNumber>
+          <TotalAmount>0.00000000</TotalAmount>
+          <TotalAmountWithoutTax>0.00000000</TotalAmountWithoutTax>
+          <DocumentType>I</DocumentType>
+          <CompanyType>C</CompanyType>
+          <Status>D</Status>
+          <UnpaidAmount>0.00000000</UnpaidAmount>
+        </DocumentDetails>
+        <DocumentDetails>
+          <Number/>
+          <Date>2019-07-08T00:00:00.0000000+01:00</Date>
+          <DueDate>1900-01-01T00:00:00.0000000+00:00</DueDate>
+          <LegalName>Consumidor Final</LegalName>
+          <TaxNumber>999999990</TaxNumber>
+          <TotalAmount>0.00000000</TotalAmount>
+          <TotalAmountWithoutTax>0.00000000</TotalAmountWithoutTax>
+          <DocumentType>I</DocumentType>
+          <CompanyType>C</CompanyType>
+          <Status>D</Status>
+          <UnpaidAmount>0.00000000</UnpaidAmount>
+        </DocumentDetails>
+        <DocumentDetails>
+          <Number/>
+          <Date>2019-07-07T00:00:00.0000000+01:00</Date>
+          <DueDate>2019-08-06T00:00:00.0000000+01:00</DueDate>
+          <LegalName>Consumidor Final</LegalName>
+          <TaxNumber>999999990</TaxNumber>
+          <TotalAmount>1.18000000</TotalAmount>
+          <TotalAmountWithoutTax>0.96000000</TotalAmountWithoutTax>
+          <DocumentType>I</DocumentType>
+          <CompanyType>C</CompanyType>
+          <Status>D</Status>
+          <UnpaidAmount>1.18000000</UnpaidAmount>
+        </DocumentDetails>
+        <DocumentDetails>
+          <Number>FT FT/1</Number>
+          <Date>2019-07-07T00:00:00.0000000+01:00</Date>
+          <DueDate>2019-08-06T00:00:00.0000000+01:00</DueDate>
+          <LegalName>Consumidor Final</LegalName>
+          <TaxNumber>999999990</TaxNumber>
+          <TotalAmount>12.30000000</TotalAmount>
+          <TotalAmountWithoutTax>10.00000000</TotalAmountWithoutTax>
+          <DocumentType>I</DocumentType>
+          <CompanyType>C</CompanyType>
+          <Status>C</Status>
+          <UnpaidAmount>12.30000000</UnpaidAmount>
+        </DocumentDetails>
+      </InvoiceList>
+    </Invoice_ListResponse>
+  </soap:Body>
+</soap:Envelope>
