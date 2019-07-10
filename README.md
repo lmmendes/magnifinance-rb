@@ -1,6 +1,7 @@
 # Magnifinance
 [![Build Status](https://travis-ci.org/lmmendes/magnifinance-rb.svg?branch=master)](https://travis-ci.org/lmmendes/magnifinance-rb)
 [![Gem Version](https://badge.fury.io/rb/magnifinance.svg)](https://badge.fury.io/rb/magnifinance)
+[![Maintainability](https://api.codeclimate.com/v1/badges/92cd79a903ed2816cb7c/maintainability)](https://codeclimate.com/github/lmmendes/magnifinance-rb/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/92cd79a903ed2816cb7c/test_coverage)](https://codeclimate.com/github/lmmendes/magnifinance-rb/test_coverage)
 
 magnifinance-rb is a MagniFinance SOAP API client for Ruby.
