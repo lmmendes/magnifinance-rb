@@ -4,7 +4,8 @@ cache: bundler
 sudo: false
 
 before_install:
-  - gem update --system 2.7.10
+  - gem update --system 2.7.10 -no-rdoc --no-ri
+  - gem update bundler -no-rdoc --no-ri
 
 # before_script:
 #   - if (ruby -e "exit RUBY_VERSION.to_f >= 2.4"); then export RUBYOPT="--enable-frozen-string-literal"; fi; echo $RUBYOPT
